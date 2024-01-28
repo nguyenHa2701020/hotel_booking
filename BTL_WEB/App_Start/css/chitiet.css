@@ -1,0 +1,155 @@
+﻿.cont{
+    padding:20px;
+    margin-top:70px;
+}
+#imgload{
+    width:100%;
+    height:300px;
+}
+.col1{
+    width:70%;
+    padding:10px;
+    float:left;
+}
+.pd{
+    width:100px;
+    height:40px;
+}
+.chiase{
+    display:flex;
+    justify-content:flex-end;
+}
+#ten{
+    width:100%;
+    height:30px;
+}
+#mta {
+    width: 100%;
+    height: 30px;
+}
+div#gtien{
+    //margin-top:60px;
+    //width:200px;
+    height:30px;
+    text-align:center;
+}
+.thanhtoan { 
+    background-color: #e4e8ea;
+   // height:210px;
+    border-radius:20px;
+    margin-top:30px;
+    //line-height:20px;
+    padding:15px;
+}
+.thtin {
+    background-color: #e4e8ea;
+    height: 340px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.col2 {
+    float: left;
+    width: 30%;
+    overflow:hidden;
+}
+.sk{
+    width:80%;
+    height:50px;
+    border-radius:5px;
+    margin-top:20px;
+}
+.sm {
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #0e7ed0;
+    color:white;
+    text-align:center;
+}
+.tt{
+    margin-top:20px;
+    width:80%;
+}
+.gk{
+    width:100%;
+    padding:10px;
+}
+.kg{
+    width:800px;
+    height:400px;
+    border-radius:20px;
+}
+.h2{
+    margin-top:20px;
+}
+span{
+    float:right;
+}
+.xanh {
+    background-color: #0e7ed0;
+    height:40px;
+    color:white;
+    font-size:20px;
+    padding:10px;
+}
+.xam {
+    background-color: #e4e8ea;
+    height: 40px;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+#doianh, #doianh2{
+    width:500px;
+    height:270px;
+    border-radius:20px;
+}
+.td1{
+    width:50%;
+    padding:10px;
+    height:300px;
+    float:left;
+}
+div#ten{
+    font-size:40px;
+}
+div.gt{
+    font-size:25px;
+    color:#007ed0;
+}
+.daylen{
+    margin-top:15px;
+}
+@media only screen and (max-width: 768px) {
+    .cont {
+        margin-top: 240px;
+    }
+
+    div.td1 {
+        width: 100%;
+    }
+
+    div#bde {
+        display: none;
+    }
+
+    div.col1 {
+        width: 100%;
+        clear: both;
+        margin-top:600px;
+    }
+
+    div.col2 {
+        width: 100%;
+        clear: both;
+        text-align: center;
+        margin-top:-2300px;
+    }
+    div.gk{
+        width:100%;
+    }
+    img.kg{
+        width:660px;
+    }
+}

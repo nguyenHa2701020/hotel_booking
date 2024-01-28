@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfSpham xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spham>
+    <id>1</id>
+    <image>/App_Start/img/file_img/ảnh 1.jpg</image>
+    <room>Phòng Deluxe </room>
+    <detail> View đẹp hướng núi</detail>
+    <price>5000000</price>
+  </spham>
+  <spham>
+    <id>2</id>
+    <image>/App_Start/img/file_img/ảnh 2.jpg</image>
+    <room>Phòng Junior Suite</room>
+    <detail>Loại phòng cao cấp nhất khách sạn</detail>
+    <price>1000000</price>
+  </spham>
+  <spham>
+    <id>3</id>
+    <image>/App_Start/img/file_img/ảnh 3.jpg</image>
+    <room>Phòng standard</room>
+    <detail>Phòng deluxe thường ở tầng trên cao</detail>
+    <price>4530000</price>
+  </spham>
+  <spham>
+    <id>4</id>
+    <image>/App_Start/img/file_img/khachsansp3.jpg</image>
+    <room>Phòng Suite</room>
+    <detail> Loại phòng tiêu chuẩn</detail>
+    <price>1200000</price>
+  </spham>
+  <spham>
+    <id>5</id>
+    <image>/App_Start/img/file_img/phongks5.jpg</image>
+    <room>Phòng Superior </room>
+    <detail>Phòng superior cao cấp</detail>
+    <price>5000000</price>
+  </spham>
+</ArrayOfSpham>

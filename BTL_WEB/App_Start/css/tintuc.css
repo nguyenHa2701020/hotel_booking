@@ -1,0 +1,126 @@
+﻿.anhbn{
+    width:100%;
+    border-radius:20px;
+    margin-top:70px;
+}
+.conten{
+    padding:20px;
+}
+.btay {
+    width: 600px;
+    height: 460px;
+    border-radius: 20px;
+    padding:10px;
+}
+.cdong {
+    width: 600px;
+    height: 230px;
+    border-radius: 20px;
+    padding:10px;
+}
+.con {
+    width: 300px;
+    height: 230px;
+    border-radius: 20px;
+    padding:10px;
+}
+.bv{
+    width:50%;
+    height:300px;
+    
+    float:left;
+}
+.vb {
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+}
+.cn{
+    width:33.33%;
+    float:left;
+    padding:10px;
+}
+.nc {
+    width: 380px;
+    height: 180px;
+    border-radius: 20px;
+}
+.bg{
+    margin-top:-105px;
+    position:absolute;
+    color:white;
+    margin-left:50px;
+}
+.ct {
+    margin-top: -110px;
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+}
+.kt {
+    margin-top: -65px;
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+}
+header#hd{
+    z-index:3;
+}
+.pchiadlich{
+    width:100%;
+}
+.dlich1{
+    width:50%;
+    float:left;
+}
+.dlich2 {
+    width: 50%;
+    float: left;
+}
+.dlich3 {
+    width: 25%;
+    float: left;
+}
+.dlich4 {
+    width: 25%;
+    float: left;
+}
+@media only screen and (max-width: 768px) {
+    div.conten {
+        margin-top: 210px;
+    }
+
+    div.pchiadlich {
+        width: 100%;
+    }
+
+    div.dlich1 {
+        width: 100%;
+    }
+
+    div.dlich2 {
+        width: 100%;
+        clear: both;
+    }
+
+    div.dlich3 {
+        width: 50%;
+        float: left;
+    }
+
+    div.dlich4 {
+        width: 50%;
+        float: left;
+    }
+
+    div.bv {
+        width: 100%;
+        clear: both;
+    }
+
+    div.cn {
+        width: 100%;
+        clear: both;
+    }
+}

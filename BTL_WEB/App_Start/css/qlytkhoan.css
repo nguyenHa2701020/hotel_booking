@@ -1,0 +1,15 @@
+﻿.contt{
+    margin-top:100px;
+}
+a.suatkhoan{
+    text-decoration:none;
+    background-color: #0e7ed0;
+    color:white;
+    border:1px solid black;
+    border-radius:2px;
+}
+@media only screen and (max-width: 768px) {
+    .contt {
+        margin-top: 240px;
+    }
+}

@@ -1,0 +1,65 @@
+﻿.cont{
+    margin-top:80px;
+    padding:20px;
+}
+ .nchan{
+     clear:both;
+ }
+ .sphamsx{
+     width:25%;
+     padding:15px;
+     float:left;
+ }
+ img.imga{
+     width:200px;
+     height:110px;
+     border-radius:10px;
+ }
+ .ttspham{
+     text-align:left;
+     line-height:20px;
+ }
+ .ttac{
+     float:left;
+ }
+ .spham{
+     width:100%;
+ }
+ .sampham{
+     width:25%;
+     float:left;
+     height:300px;
+ }
+ button#themyt, button#ttinctiet{
+     padding:5px;
+     border-radius:5px;
+ }
+img.iconud{
+    width:15px;
+    height:15px;
+}
+.spicon{
+    margin-left:20px;
+    padding:10px;
+}
+.sphamsx{
+    width:25%;
+    float:left;
+    height:300px;
+}
+img.anhtk{
+    width:200px;
+    height:110px;
+    border-radius:10px;
+}
+@media only screen and (max-width: 768px) {
+    .sphamsx {
+        width: 50%;
+        padding: 15px;
+        float: left;
+    }
+
+    div.cont {
+        margin-top: 250px;
+    }
+}

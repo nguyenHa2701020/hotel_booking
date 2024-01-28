@@ -1,0 +1,111 @@
+﻿.banner{
+    width:100%;
+    border-radius:50px;
+    display:block;
+   
+}
+.content {
+    margin-top: 70px;
+   padding: 0px 10px;
+   line-height:30px;
+   font-size:15px;
+}
+.chao{
+    margin-top:20px;
+}
+hr{
+    width:80%;
+    margin-top:20px;
+}
+.xly1{
+    width:20%;
+    padding:10px;
+    float:left;
+    height:200px;}
+.nbat{
+    width:200px;
+    height:auto;
+    border-radius:20px;
+}
+.điaiemnoibat {
+    margin-top: 20px;
+    line-height: 30px;
+}
+.xly2{
+    width:33%;
+    padding:10px;
+    float:left;
+}
+.kmai{
+    width:350px;
+    height:auto;
+}
+.collogo{
+    width:40%;
+    padding:0px;
+}
+.hd1, .hd2{
+    float:left;
+    width:50%;
+    padding:20px;
+}
+
+a.phu{
+    text-decoration:none;
+    color:#0e7ed0;
+}
+.huongdan{
+    width:100%;
+    margin-top:450px;
+}
+img.sale {
+    width: 280px;
+    height: 500px;
+}
+@media only screen and (max-width: 768px) {
+    .content {
+        margin-top: 280px;
+    }
+
+    div.xly1 {
+        width: 33.33%;
+        padding: 10px;
+        float: left;
+        height: 200px;
+    }
+
+    div.pchiadd {
+        width: 100%;
+    }
+
+    div.khuyenmai {
+        width: 100%;
+        clear: both;
+    }
+
+    div.xly2 {
+        width: 50%;
+        padding: 10px;
+        float: left;
+        height: 200px;
+    }
+
+    .kmai {
+        width: 300px;
+        height: 150px;
+    }
+
+    div.huongdan {
+        width: 100%;
+    }
+
+    div.hd1 {
+        width: 100%;
+        clear: both;
+    }
+
+    div.hd2 {
+        width: 100%;
+        clear: both;
+    }
+}

@@ -1,0 +1,55 @@
+﻿.ndungg{
+    margin-top:90px;
+    padding:20px;
+}
+.mucythich{
+    width:100%;
+    height:300px;
+}
+.anhythich{
+    width:50%;
+    float:left;
+    padding:10px;
+}
+.th {
+    width: 30%;
+    float: left;
+    padding: 70px;
+}
+.thaotac {
+    width: 20%;
+    float: left;
+    padding: 80px;
+}
+.gp{
+    clear:both;
+}
+img.ayt{
+    width:400px;
+    height:250px;
+    border-radius:15px;
+}
+a.datngay {
+    text-decoration: none;
+    background-color: #0e7ed0;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top:10px;
+}
+@media only screen and (max-width: 768px) {
+    div.anhythich{
+        width:100%;
+    }
+    div.th {
+        width: 100%;
+        padding:10px;
+    }
+    div.thaotac {
+        width: 100%;
+        padding:10px;
+    }
+    div.ndungg{
+        margin-top:220px;
+    }
+}

@@ -1,0 +1,245 @@
+﻿* {
+    box-sizing: border-box; /*giu nguyen trang thai cua khoi*/
+    padding:0;
+    margin:0;
+}
+
+header#hd {
+    position: fixed;/*để vị trí cố định 1 chỗ, khi lăn chuột ko bị lăn theo*/
+    top: 0px;/*khoảng cách khối header vs lề trên*/
+    width: 100%;
+    background-color: white;
+    z-index: 3;/*nổi nội dung header trên phần cuộn*/
+    padding:0px; 
+}
+.logo1{
+    width:100%;
+    height:auto;
+    float:left;
+}
+.logo{
+    width:40%;
+    float:left;
+}
+.bttimkiem{
+    float:left;
+}
+.timkiem1 {
+    border: none;
+    width: 300px;
+    margin-left: 5px;
+    height: 30px;
+    outline: none;
+    float: left;
+}
+a{
+    text-decoration:none;
+    color:#0e7ed0;
+    font-weight:900;
+}
+.timkiem{
+    width:60%;
+    height:40px;
+    float:left;
+  margin-top:10px;
+  border:1px solid black; /*solid là nét liền */
+  outline:none;
+  border-radius:15px;/*độ cong của viền*/
+  padding:3px;
+}
+div.pchia{
+    width:100%;
+}
+div.pchia1{
+    width:90%;
+    float:left;
+}
+div.pchia2{
+    width:10%;
+    float:left;
+}
+.imgtk{
+   margin-left:3px;
+    width:30px;
+    height:auto;
+    float:left;
+    border-radius:40%;
+}
+ul {
+   overflow:hidden;/*ko bị tràn chữ ra ngoài ô*/
+}
+.thanhchon {
+    width:50%;
+    display: flex;/*chỉnh vị trí nội dung phần hot room, tin tức...*/
+    justify-content: flex-end;/*nội dung về phía cuối*/
+    margin-top:8px;
+   
+    float:left;
+}
+img.lghd{
+    width:300px;
+}
+li.menu{
+    float:left;
+    list-style-type:none;/*bỏ dấu chấm*/
+    display:inline-block;
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    float: left;  
+}
+.thongtin{
+    margin-top:20px;
+    float:left;
+    margin-left:20px;
+    width:20%;
+}
+
+.imgcode{
+    width:150px;
+    height:150px;
+}
+.ggpl{
+    width:150px;
+    height:50px;
+}
+.appst{
+    width: 150px;
+    height: 50px;
+}
+.tt{
+    margin-top:10px;
+}
+.cuoi{
+    clear:both;
+    text-align:center;
+}
+hr {
+    width: 80%;
+    margin-top: 20px;
+}
+.mnsok {
+    margin-top: 50px;
+    position: absolute;/*luôn bắt vào lề trên bên trái -vị trí tuyệt đối*/
+    display: none;
+    z-index: 1;
+    color: white;
+}
+.mnsok1 {
+    margin-top: 50px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    color: white;
+}
+/*khi di chuột đến sẽ hiện khối sổ xuống*/
+#tkhoan:hover .mnsok{
+    display:block;
+}
+
+.mnsok::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.mnsok a{
+    display:block;
+}
+div.chuyen{
+    width:50%;
+    float:left;
+}
+button#timkiem{
+    border-radius:10px;
+    margin-right:10px;
+    border:1px solid black;
+}
+.mnsok1 a {
+    display: block;
+}
+.mnsok1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#tkhoan:hover .mnsok1 {
+    display: block;
+}
+img.imguser {
+    width: 16px;
+    height: 16px;
+}
+.menu:hover a{
+    background-color:#0e7ed0;
+    color:white;
+}
+.mnsok a.cnang {
+    min-width:180px;
+    background-color: #7BBAFF;
+}
+.mnsok1 a.chnang {
+    min-width: 120px;
+    background-color: #7BBAFF;
+}
+.mnsok a.cnang:hover {
+    background-color: #91CBFF;
+}
+
+.mnsok1 a.chnang:hover {
+    background-color: #91CBFF;
+}
+a#load{
+    margin-right:100px;
+}
+a#load1{
+    margin-right:100px;
+}/*khi thu nhỏ màn hình(respone)*/
+@media only screen and (max-width: 768px) {
+    li {
+        width: 100%;
+        height: auto;
+        display: inline;
+    }
+
+    .thanhchon {
+        width: 100%;
+        clear: both;
+    }
+
+    .logo {
+        width: 30%;
+        float: left;
+    }
+
+    .timkiem {
+        width: 70%;
+        float: left;
+    }
+
+    .logo1 {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    div.thongtin{
+        width:70%;
+    }
+    li a{
+        width:100%;
+    }
+    ul{
+        width:100%;
+    }
+    li.menu{
+        text-align:center;
+    }
+    div.chuyen{
+        width:100%;
+    }
+    .mnsok1{
+        width:100%;
+    }
+}
